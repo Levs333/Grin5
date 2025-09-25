@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: larger;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Центрує посилання по горизонталі */
+    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок на малих екранах */
+    gap: 15px; /* Відстань між посиланнями */
+    border-bottom: 5px solid violet; /* Залишаємо вашу межу */
+    padding: 10px 0; /* Додаємо відступи для кращого вигляду */
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+    border: 3px double white;
+    padding: 10px 20px; /* Зменшено padding для компактності */
+    margin: 5px; /* Зменшено margin, оскільки gap у nav контролює відступи */
+    transition: background-color 0.3s, transform 0.2s; /* Плавні ефекти */
+}
+
+
+
+header img{      
+   width: 100px;
+   border-radius: 100px;
+    
+}
+
+li{
+    text-align: start;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+
+p {
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+footer{
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    display: flex;
+    justify-content: center;
+}
+
+.be{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+    border: 3px double white;
+    padding: 15px;
+    margin: 20px;
+}
